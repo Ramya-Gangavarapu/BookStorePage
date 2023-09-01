@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1">
+        <div class="MainBl">
+            <h3>Popular Book</h3>
+            <div class="AB d-flex flex-row">
+                <div class="ImgAB">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" />
+                </div>
+                <div class="TextAB">
+                    <h6>Wings of Fire</h6>
+                    <p>An Autobiography of Abdul kalam</p>
+                    <p1>by Arun Tiwari</p1> <br />
+                    <button class="btn btn-primary" onclick="display('section2')">
+                        Read Now
+                    </button>
+                </div>
+            </div>
+            <div>
+                <h4 class="h4">Recommended Books</h4>
+                <div class="AB2 d-flex flex-row">
+                    <div class="ImgAB2">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" />
+                    </div>
+                    <div class="TextAB2">
+                        <h6>The 3 mistakes of my life</h6>
+                        <p>Indian author</p>
+                        <p1>by Chetan Bhagat</p1> <br />
+                        <button class="btn btn-primary" onclick="display('section3')">
+                            Read Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="AB3 d-flex flex-row">
+                <div class="ImgAB3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" />
+                </div>
+                <div class="TextAB3">
+                    <h6>Harry Potter</h6>
+                    <p>and the Sorcerer's Stone</p>
+                    <p1>by J.K.Rowling</p1> <br />
+                    <button class="btn btn-primary" onclick="display('section4')">
+                        Read Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section2">
+        <div class="MainB2">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" />
+            <h2>Wings of Fire</h2>
+            <p>by Arun Tiwari</p>
+            <div class="para">
+                <p1>"Wings of Fire" is an autobiography of Dr. A.P.J. Abdul Kalam, the former President of India and a renowned scientist. The book was written by him and Arun Tiwari. It was first published in English and has been translated and published in 13 languages including Hindi, Bengali, Telugu, Tamil, Kannada, Malayalam, Odia, Marathi, and Gujarati. Outside of the major Indian languages, Wings of Fire was translated into Chinese and French. The book has 24 plates with photographs associated with the life and work of Kalam</p1>
+            </div>
+            <div class="d-flex flex-row">
+                <div onclick="display('section1')">
+                    <Button class="btn btn-warning">Back</Button>
+                </div>
+            </div>
+            <div>
+                <Button class="btn btn-primary">Read Now</Button>
+            </div>
+        </div>
+    </div>
+
+
+
+        <div id="section3">
+            <div class="MainB3">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" />
+                <h2>The 3 mistakes of my life</h2>
+                <p>by Chetan Bhagat</p>
+                <div class="para">
+                    <p1>"Chetan Bhagat’s novel book “The Three Mistakes of my Life” is a story that talks about business, cricket, and religion. The title has nothing to do with the mistakes of the author but it was the mistakes that have done by Govind Patel, who has two friends named Ishaan and Omi."</p1>
+                </div>
+                <div class="d-flex flex-row">
+                    <div onclick="display('section1')">
+                        <Button class="btn btn-warning">Back</Button>
+                    </div>
+                </div>
+                <div>
+                    <Button class="btn btn-primary">Read Now</Button>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="section4">
+            <div class="MainB2">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" />
+                <h2>Harry Potter</h2>
+                <p>by J.K.Rowling</p>
+                <div class="para">
+                    <p1>"Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's conflict with Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic and subjugate all wizards and Muggles (non-magical people)."</p1>
+                </div>
+                <div class="d-flex flex-row">
+                    <div onclick="display('section1')">
+                        <Button class="btn btn-warning">Back</Button>
+                    </div>
+                </div>
+                <div>
+                    <Button class="btn btn-primary">Read Now</Button>
+                </div>
+            </div>
+        </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
